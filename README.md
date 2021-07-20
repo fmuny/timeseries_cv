@@ -21,7 +21,7 @@ Since *hv*-block CV iterates over all observations in the sample, it is computat
 
 ## Example
 
-This code snipped shows how to implement the cross-validation schemes using `caret`. The functions can be directly loaded into `R` using `source_url()` from the `devtools` package. In the examples I use cross-validation for parameter tuning only. However, the functions could generally also be used to test out-of sample predictive performance. 
+This code snippet shows how to implement the cross-validation schemes using `caret`. The functions can be directly loaded into `R` using `source_url()` from the `devtools` package. In the examples I use cross-validation for parameter tuning only. However, the functions could generally also be used to test out-of sample predictive performance. 
 
 ```r
 # Load packages
